@@ -4,19 +4,37 @@
     padding:0;
 }
 
+
+#containerLogo{
+    padding:10px;
+
+}
+#logo {
+    width:7%;
+}
+@media(max-width:480px){
+    #logo {
+        width:20%;
+    }
+}
+
 body{
     font-family: Lato, Helvetica, sans-serif;
     background: white;
 }
+.haut{
+    height:13vh;
+}
+
 .home{
-    height:38vh;
+    height:25vh;
     display:flex;
     justify-content: center;
-    align-items: center;
-    margin: 0 10px;
+    align-items: center;  
 }
+
 h1{
-    padding-top:5vh;
+   
     text-align:center;
     font-size:25px;
     color:rgb(40, 40, 40);
