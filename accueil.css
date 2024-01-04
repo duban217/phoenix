@@ -10,11 +10,11 @@
 
 }
 #logo {
-    width:7%;
+    max-width:7%;
 }
 @media(max-width:480px){
     #logo {
-        width:20%;
+        max-width:20%;
     }
 }
 
