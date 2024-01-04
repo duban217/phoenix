@@ -9,6 +9,14 @@
     padding:10px;
 
 }
+#logo {
+    width:7%;
+}
+@media(max-width:480px){
+    #logo {
+        width:20%;
+    }
+}
 
 body{
     font-family: Lato, Helvetica, sans-serif;
