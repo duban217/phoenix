@@ -83,8 +83,7 @@
        }
      }
      </script>
-     
-      <!--BOUTON CHIOTS DISPONIBLES-->
+     <!--BOUTON CHIOTS DISPONIBLES-->
     <div class="container-button">
       <button id="boutonChiotsDisponibles"> Chiots disponibles </button>
       <div id="popup-overlay">
@@ -105,7 +104,7 @@
         <button id="boutonContactezNous">Contactez-nous</button>
         <div id="popup-contact">
           <div class="popup-content" style="font-weight:200;">
-              <p>Tél: 06 24 39 09 52
+              <p> Tél: 06 24 39 09 52
               <br>e-mail : 
               <a href="mailto:bergerblancsuisse@loreedesforetsblanches.fr " class="popup-link" style="color:black;">bergerblancsuisse@loreedesforetsblanches.fr </a></p>
               <a href="javascript:void(0)" id="popup-exit2">Fermer</a>
@@ -113,7 +112,19 @@
         </div>
       
       </div>
-      
+      <script>
+        document.getElementById("boutonChiotsDisponibles");
+        document.getElementById("paragAccueil");
+         if (window.matchMedia("(max-width:480px)").matches)
+      {
+        paragAccueil.style.fontSize="14px",
+        boutonChiotsDisponibles.style.marginRight="0px"
+      }
+      else
+    { 
+      boutonChiotsDisponibles.style.marginRight="30px"
+      }
+      </script>
       <script>
       let bouton=document.getElementById("boutonChiotsDisponibles");
       bouton.onclick=function togglePopup(){
