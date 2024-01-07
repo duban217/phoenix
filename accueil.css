@@ -4,6 +4,7 @@
     padding:0;
 }
 
+@media (max-width:1380px){
 
 body{
     font-family: Lato, Helvetica, sans-serif;
@@ -102,4 +103,13 @@ nav a{
     display: block;
     margin:10px 0;
     text-decoration: none;
+}
+}
+@media (max-width:480px){
+    .home{
+        height:25vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;  
+    }
 }
