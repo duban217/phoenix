@@ -17,11 +17,12 @@
     font-weight: 400;
   line-height: 2.1em;
   color: white;
-  background: #24474f;
+  background: rgb(36, 71, 79);
   text-decoration: none;
   letter-spacing: 1px;
  border:none;
  cursor:pointer;
+ box-shadow: 5px 5px 5px rgba(0,0,0, 0.1);
 }
 #boutonContactezNous{
     height:35px;
@@ -36,6 +37,7 @@
   letter-spacing: 1px;
   border:none;
   cursor:pointer;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.1);
 
 }
 
