@@ -1,23 +1,15 @@
 .container-img-BergerBlancSuisse
 {
-  width: 100%;
-  overflow: hidden;
+display: flex;
+  overflow: hidden; justify-content: center;
   }
-
-.img-BergerBlancSuisse{
-    
-    
-    justify-content: center;
-    max-width: 100%;
-    }
 
   .img 
   {
-    width:35%;
     padding-bottom: 5px;
     height:auto;
     margin: auto;
-    display: flex;
+    
     }
 
 @media only screen and (max-width: 992px) {

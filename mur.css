@@ -1,3 +1,8 @@
+#murDePhotos{
+  display: flex;
+  justify-content: center;
+}
+
 #containerMur{
     padding:0;
      display:inline-flex;
