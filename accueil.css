@@ -112,4 +112,13 @@ nav a{
         justify-content: center;
         align-items: center;  
     }
+    h1{
+        font-size:20px;
+    }
+    h1 #titre
+    {
+        font-size:35px;
+    }
+    h1 #Bienvenue{
+        font-size: 35px;
 }
