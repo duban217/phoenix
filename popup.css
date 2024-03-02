@@ -25,10 +25,10 @@
  box-shadow: 2px 2px 2px rgba(0,0,0, 0.1);
 }
 #boutonChiotsDisponibles:hover{
-    background: rgb(122, 194, 210); 
+    background: rgb(60, 118, 131);
 }
 #boutonContactezNous:hover{
-    background: rgb(122, 194, 210); 
+    background: #54a3b5;
 }
 #boutonContactezNous{
     height:35px;
