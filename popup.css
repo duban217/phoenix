@@ -24,6 +24,12 @@
  cursor:pointer;
  box-shadow: 2px 2px 2px rgba(0,0,0, 0.1);
 }
+#boutonChiotsDisponibles:hover{
+    background: rgb(122, 194, 210); 
+}
+#boutonContactezNous:hover{
+    background: rgb(122, 194, 210); 
+}
 #boutonContactezNous{
     height:35px;
     width:200px;
