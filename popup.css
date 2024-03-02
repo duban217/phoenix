@@ -26,9 +26,15 @@
 }
 #boutonChiotsDisponibles:hover{
     background: rgb(60, 118, 131);
+    transition-delay: 0.12s;
+    transition-duration: 0.2s;
+    
+    
 }
 #boutonContactezNous:hover{
     background: #54a3b5;
+    transition-delay: 0.12s;
+    transition-duration: 0.2s;
 }
 #boutonContactezNous{
     height:35px;
