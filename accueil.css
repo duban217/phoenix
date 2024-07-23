@@ -82,7 +82,7 @@ h1 #Bienvenue{
 nav{
     position:fixed;
     width:100vw;
-    height: 50vh;
+    min-height: 100vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +100,7 @@ nav a{
     color:rgb(40, 40, 40);
     font-size: 20px;
     display: block;
-    margin:10px 0;
+    margin:15px 0;
     text-decoration: none;
 }
 nav a:hover{
@@ -123,4 +123,13 @@ nav a:hover{
     }
     h1 #Bienvenue{
         font-size: 35px;
-}}
+    }
+    nav a{
+        font-family: Quicksand,sans-serif;
+        color:rgb(40, 40, 40);
+        font-size: 1.5rem;
+        display: block;
+        margin:4vh 0;
+        text-decoration: none;
+    }
+}
