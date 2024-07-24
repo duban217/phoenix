@@ -1,22 +1,19 @@
 .container-img-BergerBlancSuisse
 {
 display: flex;
-  overflow: hidden; justify-content: center;
+  justify-content: center;
   }
 
-  .img 
-  {
-    padding-bottom: 5px;
-    height:auto;
-    margin: auto;
-    
-    }
+  
 
 @media only screen and (max-width: 992px) {
   
     .container-img-BergerBlancSuisse{
         display: flex;
         justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin: auto;
         }
      
 }
@@ -26,24 +23,13 @@ display: flex;
     .container-img-BergerBlancSuisse
 {
   display: flex;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  
   
       }
-     .img-BergerBlancSuisse{
-      display: inline-flex;
-      justify-content: center;
-      }
-    .wsite-image1
-    {margin:0;}
-     
-    .img 
-    {
-      width: 100%;
-      height:auto;
-      padding:0;
-      margin-top:0;
-      }
-
+    
+   
     }
     
   
